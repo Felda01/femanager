@@ -5,7 +5,7 @@
  */
 $feUsersColumns = [
     'gender' => [
-        'exclude' => 0,
+        'exclude' => 1,
         'label' => 'LLL:EXT:femanager/Resources/Private/Language/locallang_db.xlf:' .
             'tx_femanager_domain_model_user.gender',
         'config' => [
@@ -25,7 +25,7 @@ $feUsersColumns = [
         ]
     ],
     'date_of_birth' => [
-        'exclude' => 0,
+        'exclude' => 1,
         'label' => 'LLL:EXT:femanager/Resources/Private/Language/locallang_db.xlf:' .
             'tx_femanager_domain_model_user.dateOfBirth',
         'config' => [
